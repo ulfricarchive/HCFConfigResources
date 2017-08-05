@@ -1,0 +1,295 @@
+PREFIX: '&8[&c&lCore&8] '
+JOIN_MESSAGE: '&3&l[&a&lJoin&3&l] &a&l<player>'
+QUIT_MESSAGE: '&3&l[&c&lQuit&3&l] &c&l<player>'
+COMMANDS:
+  FOR_PLAYER_USE_ONLY: '&4Sorry. &cFor player use only!'
+  FOR_CONSOLE_USE_ONLY: '&4Sorry. &cFor console use only!'
+  NO_PERMISSION_MESSAGE: '&4Sorry. &cYou do not have permission.'
+  FORBIDDEN_COMMAND_MESSAGE: '&7This command is &3Forbidden&7!'
+  INVALID_NUMBER: '&7Please use a valid &3Number&7!'
+  PLAYER_NOT_ONLINE: '&7Player &3<player> &7is not online!'
+PVPTIMER:
+  FORMAT_ENABLE: '&7/&3pvp enable &7- Enable PvP for yourself'
+  FORMAT_TIME: '&7/&3pvp time &7- Check time left on your timer'
+  TIMER_NOT_ACTIVE: '&7Your &3&lPvP Timer &7is not active!'
+  TIMER_DISABLED: '&7You have disabled your &3&lPvP Timer&7!'
+  TIMER_STATUS: '&7Your &3&lPvP Timer &7time is: &c<time>'
+  FROZEN_MESSAGE: '&7Your &3&lPvP Timer &7is now &afrozen&7.'
+  UNFROZEN_MESSAGE: '&7Your &3&lPvP Timer &7is now &cunfrozen&7.'
+  PVPDENY_ATTACKER: '&7You can''t attack &3<name> &7while his &3PvP Timer &7is active!'
+  PVPDENY_VICTIM: '&7You can''t attack other players while your &3PvP Timer &7is active!'
+  COMMAND_DENY_MESSAGE: '&7You can''t use this &3Command &7with active PvP Timer!'
+  ITEM_DENY_MESSAGE: '&7You can''t use &3<item> &7with active PvP Timer!'
+  END_PORTAL_TELEPORT_DENY: '&7You can''t use &3Portals &7with active &3PvP Timer&7!'
+FREEZE:
+  USAGE: '&7Usage: &3/&7freeze &3<&7player&3>'
+  DISABLED_COMMAND_MESSAGE: '&7You can''t use this &3Command &7when frozen!'
+  CAN_NOT_FREEZE_YOURSELF: '&7You can not freeze &3yourself&7!'
+  FREEZED_MESSAGE:
+    PLAYER: '&eYou just froze &2<target>&e.'
+  UNFREEZED_MESSAGE:
+    PLAYER: '&eYou just unfroze &2<target>&e.'
+    TARGET: '&eYou have been unfrozen by &2<player>&e.'
+  PVP_DENY_MESSAGE:
+    DAMAGER: '&7You can not &3damage &7other players while frozen!'
+    VICTIM: '&3<player> &7is frozen. You can not &3damage &7him!'
+  QUIT_WHEN_FROZEN: '&3Attention&7! &c<player> &7left when frozen!'
+GOLEDNAPPLE:
+  COOLDOWN_STARTED_MESSAGE: '&7You have used &3Super Golden Apple&7. Starting cooldown
+    at &c<time>&7.'
+  COOLDOWN_DENY_MESSAGE: '&7You are on &3Super Golden Apple &7cooldown for: &c<time>&7.'
+CHATCONTROL:
+  CHAT:
+    MUTED: '&7Chat was &cMuted &7by &3<player>&7.'
+    ALREADY_MUTED: '&7Chat is already &3Muted&7!'
+    UNMUTED: '&7Chat was &aUnmuted &7by &3<player>&7.'
+    NOT_MUTED: '&7Chat is not &3Muted&7!'
+    DELAY_BROADCAST: '&3Chat &7delay has been set to &c<delay>&7!'
+    CLEAR_BROADCAST: '&3Chat &7has been cleared by &c<player>&7.'
+  CHATEVENT:
+    MUTED_MESSAGE: '&7You can''t send messages while &3Chat &7is muted!'
+    DELAY_MESSAGE: '&7You can''t use &3Chat &7for &c<seconds> &7more seconds.'
+  COMMAND:
+    MUTE_FORMAT: '&7/&3chat mute'
+    UNMUTE_FORMAT: '&7/&3chat unmute'
+    CLEAR_FORMAT: '&7/&3chat clear'
+    DELAY_FORMAT: '&7/&3chat delay &7<&3seconds&7>'
+COBBLECOMMAND:
+  ENABLED: '&3Cobblestone &7pickup &aEnabled&7.'
+  DISABLED: '&3Cobblestone &7pickup &cDisabled&7.'
+CPSCOUNT:
+  WARNING_MESSAGE: '&7Player &3<player> &7might be using &cClicker&7! &a[&c<cps>&a]'
+  COMMAND:
+    FORMAT: '&7/&3cps &7<&3player&7>'
+    PLAYER_NOT_ONLINE: '&7Player &3<player> &7is not online!'
+    MESSAGE_FORMAT: '&7Player: &c<player> &7CPS Count: &c<cps>'
+    LAYER_NOT_IN_DATABASE: '&7Player &3<player> &7is not in database!'
+CROWBAR:
+  ZERO_USAGES:
+    SPAWNERS: '&7This &3Crowbar &7has &c0 &7more usages for &3Spawners&7!'
+    PORTALS: '&7This &3Crowbar &7has &c0 &7more usages for &3Portals&7!'
+  DENY_USAGE:
+    MESSAGE: '&7For use on &3Spawners &7and &3Portal Frames&7 only!'
+    NETHER: '&3Crowbar &7is disabled in &3Nether&7!'
+    END: '&3Crowbar &7is disabled in &3End&7!'
+DEATHMESSAGE:
+  PLAYER_NAME_FORMAT: '&3<player>&8[&4<kills>&8]'
+  KILLER_NAME_FORMAT: '&3<killer>&8[&4<kills>&8]'
+  REASON:
+    BLOCK_EXPLOSION: <player> &7was blown up by &3TNT&7.
+    CONTACT: <player> &7was slain by angry &3Cactus&7.
+    CUSTOM: <player> &7died.
+    DROWNING: <player> &7don't know how to &3Swim&7.
+    ENTITY_ATTACK_ENTITY: <player> &7was slain by &3<entity>&7.
+    ENTITY_ATTACK_PLAYER_ITEM: <player> &7was slain by <killer> &7using &3<item>&7.
+    ENTITY_ATTACK_PLAYER_NO_ITEM: <player> &7was slain by <killer>&7.
+    ENTITY_EXPLOSION: <player> &7was blown up by &3Creeper&7.
+    FALL: <player> &7hit the grount too hard.
+    FALLING_BLOCK: <player> &7died to a &3Falling Block&7.
+    FIRE: <player> &7went up in flames.
+    FIRE_TICK: <player> &7went up in flames.
+    LAVA: <player> &7tried to swim in &3Lava&7.
+    LIGHTNING: <player> &7was slain by &3Lightning&7. :O
+    MAGIC: <player> &7died to a &3Voodoo&7.
+    MELTING: <player> &7died.
+    POISON: <player> &7was poisoned.
+    PROJECTILE_ENTITY: <player> &7was shoot by &3Skeleton&7.
+    PROJECTILE_ITEM: <player> &7was shoot by <killer> &7using &3<item>&7.
+    PROJECTILE_NO_ITEM: <player> &7was shoot by <killer>&7.
+    STARVATION: <player> &7forgot to &3Eat&7.
+    SUFFOCATION: <player> &7suffocated.
+    SUICIDE: <player> &7killed himself.
+    THORNS: <player> &7was killed by &aThorns&7.
+    VOID: <player> &7fell into the &3Void&7.
+    WITHER: <player> &7withered away.
+DEATHBAN:
+  BAN_MESSAGE: '&7You are &3DeathBanned &7for: &c<time>&7.'
+  JOIN_AGAIN_FOR_REVIVE: '&7You have &3<amount> &7live(s). Please join again to use
+    &3Live&7.'
+  COMMAND:
+    CHECK_USAGE: '&3Usage&7: /&3deathban check &7[&3player&7]'
+    REVIVE_USAGE: '&3Usage&7: /&3deathban revive &7[&3player&7]'
+    INVENTORY_ROLLBACK_USAGE: '&3Usage&7: /&3deathban inventory rollback &7[&3player&7]'
+  PLAYER_NOT_DEATHBANNED: '&7Player &3<player> &7is not &3DeathBanned&7!'
+  SUCCESSFULLY_REVIVED_PLAYER: '&7You successfully revived &3<player>&7.'
+  SUCCESSFULLY_ROLLBACKED_INVENTORY: '&7Successfully rollbacked &3<player>''s &7inventory.'
+  SUCCESSFULLY_ROLLBACKED_INVENTORY_PLAYER: '&7Your inventory was rollbacked by &3<player>&7.'
+  INVENTORY_ALREADY_ROLLBACKED: '&7Somebody already rollbacked &3<player>''s &7inventory!'
+  PLAYER_HAS_NOT_DIED_YET: '&7Player &3<player> &7has not died yet!'
+LIVES:
+  COMMAND:
+    REVIVE_USAGE: '&3Usage&7: /&3lives revive &7[&3player&7]'
+    SEND_USAGE: '&3Usage&7: /&3lives send &7[&3player&7] [&3amount&7]'
+    SUCCESSFULLY_SENT_LIVES: '&7You sent &3<amount> &7lives to &3<player>&7.'
+    PLAYER_NOT_IN_DATABASE: '&3<player> &7is not in database!'
+    CAN_NOT_SEND_LIVES_TO_YOURSELF: '&7You can''t send lives to &3Yourself&7!'
+    PLAYER_NOT_ONLINE: '&7Player &3<player> &7is not online!'
+    CHECK_SELF: '&3Your lives: &c<lives>'
+    CHECK_OTHERS: '&3<player>''s lives: &c<lives>'
+    LIVES_ADD_RECEIVED: '&3<player> &7added &3<amount> &7lives to you account.'
+    LIVES_ADDED: '&7You added &3<amount> &7lives to &3<player>''s &7account.'
+    LIVES_SET_RECEIVED: '&7Your lives were set to &3<amount> &7by &3<player>&7.'
+    LIVES_SET: '&7You set &3<player>''s &7lives to &3<amount>&7.'
+    ZERO_LIVES: '&7You have &30 &7lives!'
+    NOT_ENOUGH_LIVES: '&cYou don''t have &3<amount> &7lives.'
+SPAWNERS:
+  DISABLE_PLACE:
+    END: '&3Spawner &7placing is disabled in &3Nether&7!'
+  DISABLE_BREAK:
+    NETHER: '&3Spawner &7breaking is disabled in &3Nether&7!'
+    END: '&3Spawner &7breaking is disabled in &3End&7!'
+SOTW:
+  FORMAT_START: '&7/&3SOTW start &7<&3time&7>'
+  FORMAT_STOP: '&7/&3SOTW stop'
+  NOT_RUNNING: '&3SOTW &7timer is currently not running!'
+  ALREADY_RUNNING: '&7There is &3SOTW &7timer already running!'
+EOTW:
+  FORMAT_START: /eotw start <time>
+  FORMAT_STOP: /eotw stop
+  NOT_RUNNING: '&3EOTW &7is currently not active!'
+  ALREADY_RUNNING: '&3EOTW &7is already active!'
+  TIMER_STARTED: '&3EOTW &7timer has been activated. &3EOTW &7will start in &4<seconds>
+    &7seconds!'
+  BROADCAST_START: '&4Warning! &3EOTW &7has been activated. All factions became raidable.'
+  BROADCAST_STOP: '&3EOTW &7has been canceled.'
+ORES:
+  COMMAND_FORMAT: '&7/&3ores &7<&3player&7>'
+  MINED_FORMAT: '&3Mined&7: &c<amount>'
+COMBATTAG:
+  MESSAGE:
+    TAGGER: '&7You have combat tagged &3&l<name> &7for &3&l<time> &7seconds.'
+    OTHER: '&7You have been tagged by &3&l<name> &7for &3&l<time> &7seconds.'
+  COMMAND_DENY_MESSAGE: '&7You can''t use this &3Command &7in combat!'
+  END_PORTAL_TELEPORT_DENY: '&7You can''t use &3Portals &7when in &3Combat&7!'
+COMBATLOGGER:
+  DEATHMESSAGE:
+    WITH_KILLER: '&c(&7CombatLogger&c) &3<player>&8[&4<kills1>&8] &7has been killed
+      by &3<killer>&8[&4<kills2>&8]&7.'
+    NO_KILLER: '&c(&7CombatLogger&c) &3<player>&8[&4<kills1>&8] &7has died.'
+  ON_DEATH_MESSAGE: '&7You were &3Killed &7because your &3CombatLogger &7died.'
+LOGOUT:
+  KICK_MESSAGE: You have been safely logged out.
+  TELEPORT_CANCELLED: '&3Logout &7cancelled because you &4<reason>&7!'
+  ALREADY_RUNNING: '&7You &3Logout &7task is already running!'
+  START_MESSAGE: '&aYou will be safely &3Logged &aout in &c<seconds> &aseconds.'
+ENDERPEARL:
+  DENY_MESSAGE: '&7You can''t use &2&lEnderPearl &7for &2&l<time> &7more seconds!'
+ENCHANTMENTLIMITER:
+  NOT_REPAIRABLE_MESSAGE: '&7This item is not &3Repairable&7!'
+  CAN_NOT_MERGE: '&7You can''t merge those &3Items&7!'
+FIRSTTIMEITEMS:
+  COMMAND_SET_FORMAT: '&7/&3joinitems set'
+  COMMAND_REMOVE_FORMAT: '&7/&3joinitems remove'
+  COMMAND_ADD_SUCCESSFUL: '&7You have successfully set &3First Join &7items.'
+  COMMAND_REMOVE_SUCCESSFUL: '&7You have successfully removed &3First Join &7items.'
+COMBATCLASS:
+  WARMING_UP: '&5&l<name> &bclass warming up.'
+  WARMUP_CANCELLED: '&5&l<name> &cclass warmup cancelled!'
+  CLASS_DISABLED: '&5&l<name> &cclass disabled!'
+  CLASS_ACTIVATED: '&5&l<name> &bclass activated.'
+ALERTS_COMMAND:
+  ENABLED: '&7You have &aEnabled &7alerts recieving.'
+  DISABLED: '&7You have &cDisabled &7alerts recieving.'
+STAFFSCOREBOARD_COMMAND:
+  ENABLED: '&7You have &aEnabled &7staff scoreboard.'
+  DISABLED: '&7You have &cDisabled &7staff scoreboard.'
+POTIONLIMITER:
+  DRINK_DENY_MSSAGE: '&7This &3PotionEffect &7is disabled!'
+ARCHER:
+  SPEEDBOOST:
+    ACTIVATED: '&3&lArcher &7speed boost activated for &3<seconds> &7seconds.'
+    COOLDOWN_DENY: '&7You can''t use &3&lArcher &7speed boost for &3<seconds> &7seconds.'
+  MARK:
+    VICTIM: '&7Archer tagged by &3<tagger>&7! Tag <level>: &c<effect>'
+    TAGGER: '&7You archer tagged &3<victim>&7! Tag <level>: &c<effect>'
+BARD:
+  CLICKABLE_ITEMS:
+    ACTIVE_COOLDOWN: '&7You are on cooldown for &3&l<seconds> &7more seconds!'
+    NOT_ENOUGH_ENERGY: '&7You don''t have enough &3&lEnergy &7for that effect!'
+  NOT_IN_FACTION_MESSAGE: '&7You can''t bard while not in &3Faction&7!'
+  CLICKABLE_ITEM:
+    MESSAGE_BARD:
+      FRIENDLY: '&7You have given your faction members &a&l<effect>&7.'
+      ENEMY: '&7You have given your enemies &c&l<effect>&7.'
+    MESSAGE_OTHERS: '&7You have been given &a&l<effect>&7.'
+BOOKDISENCHANT_MESSAGE: '&7You have removed all &3Enchantments &7from this book.'
+ITEM_DISABLE_MESSAGE: '&7You can''t interract with &3<block>&7!'
+MAPKIT:
+  EDIT_MESSAGE: '&7You successfully edited &3MapKit&7.'
+PLATE_ELEVATOR:
+  CREATED_MESSAGE: '&7You have successfully created &3Elevator&7.'
+  DESTROYED_MESSAGE: '&7You have successfully destroyed &4Elevator&7.'
+  TELEPORT_MESSAGE: '&7Teleporting in &3<seconds> &7seconds.'
+  TELEPORT_CANCELLED: '&7Teleport cancelled because you &4<reason>&7!'
+NOTES_COMMAND_USAGE: '&7/&3notes check &7<&3player&7>'
+NOTES:
+  COMMAND:
+    ADD_USAGE: '&7/&3notes add &7<&3player&7> &7<&3note&7>'
+    REMOVE_USA: '&7/&3notes remove &7<&3player&7> &7<&3number&7>'
+  MESSAGE: '&7Notes of player &3<player>&7:'
+  FORMAT: ' &3<number>. &7<note>'
+  NO_NOTES: '&7Player &3<player> &7doesn''t have notes.'
+  NOTE_ADDED: '&7Successfully added note for player &3<player>&7.'
+  NOTE_REMOVED: '&7Note with number &3<number> &7has been removed.'
+  NOTE_DOESNT_EXIST: '&7Note with number &3<number> &7doesn''t exist.'
+CORE_RELOAD_MESSAGE: '&dConfig and Language files successfully reloaded.'
+FOUND_ORE:
+  MESSAGE: '&4[&cFO&4] &3<player> &7has found &c<count> &7of &3<material>&7.'
+JOIN_FULL_SERVER:
+  MESSAGE: '&cServer is &4Full&c. In order to play donate at: &bshop.example.com'
+REQUEST:
+  COMMAND_FORMAT: '&7/&3request &7<&3message&7>'
+  STAFF_MESSAGE_FORMAT: '&4[&3Request&4] &b<player> &7: &c<message>'
+REQEST:
+  DELAY_MESSAGE: '&7You can''t use &3Request &7for &c<seconds> &7more seconds!'
+REPORT:
+  COMMAND_FORMAT: '&7/&3report &7<&3player&7>'
+  DELAY_MESSAGE: '&7You can''t use &3Report &7for &c<seconds> &7more seconds!'
+  CAN_NOT_REPORT_YOURSELF: '&7You can''t &3Report &7yourself!'
+ENDSPAWN:
+  MUST_BE_IN_END: '&7You must be in &3End &7to execute this command!'
+  SET_MESSAGE: '&3End Spawn &7set to: &c<x>&7, &c<y>&7, &c<z>&7.'
+ENDEXIT:
+  SET_MESSAGE: '&3End Exit &7set to: &c<x>&7, &c<y>&7, &c<z>&7.'
+RANDOM_TELEPORT_MESSAGE: '&7Randomly teleported you to &3<player>&7.'
+INVENTORY_INSPECT_MESSAGE: '&7Opening inventory of &3<player>&7. Can''t edit.'
+STAFFCHAT:
+  FORMAT: '&3&l[&b&lStaff&3&l] &a<player> &7: &c<message>'
+  ENABLED: '&7Staff chat &aenabled&7.'
+  DISABLED: '&7Staff chat &cdisabled&7.'
+STAFFMODE:
+  COMMAND:
+    ENABLED: '&7You have &aenabled &3StaffMode&7.'
+    DISABLED: '&7You have &cdisabled &3StaffMode&7.'
+SUBCLAIM:
+  SUCCESSFULLY_CREATED: "&7Player &3<player> &7created subclaimed \xa7c<block> &7at\
+    \ &c<x>&7, &c<y>&7, &c<z>&7."
+  CAN_NOT_DESTROY_SIGN: '&7You can''t destroy this subclaim &3SIGN&7!'
+  CAN_NOT_DESTROY_SUBCLAIM: '&7You can''t destroy this subclaimed &3<block>&7!'
+  CAN_NOT_OPEN: '&7You can''t open this subclaimed &3<block>&7!'
+  ALREADY_EXISTS: '&7There is already a subclaim on this &3<block>&7.'
+SUBCLIAM:
+  NOT_IN_OWN_CLAIM: '&7Must be in your own &3Claim&7!'
+VANISH:
+  COMMAND:
+    USAGE: '&7/&3vanish'
+    OPTIONS_USAGE: '&7/&3vanish options'
+    TOGGLE_USAGE: '&7/&3vanish toggle &7<&3option&7>'
+    TOGGLE_MESSAGE: '&3You toggled&7: <option>'
+    TOGGLE_NOT_VANISHED: '&7Can''t toggle &3Options &7while not &3Vanished&7!'
+    ENABLED: '&7You have &aenabled &3Vanish&7.'
+    ENABLED_STAFF_BROADCAST: '&7Player &3<player> &7has &3Vanished&7! :O'
+    DISABLED: '&7You have &cdisabled &3Vanish&7.'
+    DISABLED_STAFF_BROADCAST: '&7Player &3<player> &7has become &3Visible&7!'
+  ONJOIN:
+    ENABLED: '&7You have joined &3Vanished&7.'
+    ENABLED_STAFF_BROADCAST: '&7Player &3<player> &7has joined &3Vanished&7.'
+  OPTIONS_LIST_FORMAT: '&3You can toggle: <options>'
+  OPTIONS:
+    DOES_NOT_EXIST: '&7Option &3<option> &7doesn''t exist!'
+    DAMAGE_DENY: '&7You can''t &3Deal Damage &7when vanished!'
+    PLACE_DENY: '&7You can''t &3Place Blocks &7when vanished!'
+    BREAK_DENY: '&7You can''t &3Break Blocks &7when vanished'
+    CHAT_DENY: '&7You can''t &3Chat &7when vanished!'
+    PICKUP_DENY: '&7You can''t &3Pickup Items &7when vanished!'
+  OPTIONS_CHEST_MESSAGE: '&4[&cSilent&4] &7Opening silently. Can not edit.'
